@@ -1,0 +1,63 @@
+body {
+  background-color: #ffbafc;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: #ffbafc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #ffbafc;
+  background-color: white;
+  transition: all 0.3;
+}
+.icon {
+  text-align: center;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  transform: scale(0.5);
+  transition: all 0.3s;
+}
+.icon img {
+  display: flexbox;
+
+  width: 50px;
+  height: 50px;
+}
+.icon:hover {
+  transform: scale(0.8);
+}
+.input-field {
+  width: 100%;
+  height: 50px;
+  border: 0px;
+  outline: none;
+  text-decoration: none;
+  font-size: 23px;
+  margin-left: 30px;
+}
+.to-do-list {
+}
+.text-to-do {
+  word-wrap: break-word;
+  width: 100%;
+  overflow: hidden;
+
+  margin-bottom: 15px;
+  margin-left: 30px;
+  background-color: white;
+}
+.did {
+  color: gray;
+  transform: scale(0.9);
+  transition: all 0.3;
+}
